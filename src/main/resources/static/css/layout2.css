@@ -1,6 +1,7 @@
 body{margin:0; font-family: 'Source Sans Pro';}
 ul{ padding: 0;  margin:0;}
 a{ text-decoration: none; color: white;}
+header{ background: #37474f; }
 nav > ul{ background: #37474f; }
 nav > ul > li { position: relative; list-style: none;  font-size: 18px; width: 100%;}
 nav > ul > li:hover{ background: #62727b; transition-duration:0.2s;}
@@ -8,7 +9,7 @@ nav > ul li > ul { width: 100%;list-style: none; padding: 5px 0; background: #45
 nav > ul li > ul li { font-size: 15px; padding: 15px; }
 nav > ul li > ul li:hover{ background: #00796b; border-radius: 7px; transition-duration:0.2s;}
 nav > ul li > ul {display: none; }
-.navbar__toogleBtn{ display: none; width : 50px; height : 50px; font-size: 32px; color: black; text-align: center; line-height: 50px;}
+.navbar__toogleBtn{ display: none; width : 50px; height : 50px; font-size: 32px; color: white; text-align: center; line-height: 50px;}
 @media (min-width: 1200px){
     nav > ul {display: flex; justify-content: space-around; height: 50px; line-height: 50px;}
     nav > ul > li { text-align: center;  position: relative; }
